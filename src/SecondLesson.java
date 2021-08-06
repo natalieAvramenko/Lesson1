@@ -6,7 +6,7 @@ public class SecondLesson {
 
         isPositiveOrNegative(3);
 
-        isNegative(-2);
+        System.out.println(isNegative(-2));
 
         printWorldTimes("World times.", 3);
 
@@ -28,17 +28,12 @@ public class SecondLesson {
     }
 
     public static boolean isNegative(int b) {
-        if (b >= 0) {
-            System.out.println(false);
-        } else if (b < 0) {
-            System.out.println(true);
-        }
-        return true;
-    }
+        return b < 0;
+      }
 
     public static void printWorldTimes(String world, int times) {
-        for (int w = 2; w < 3; w++) {
-            System.out.println("World times.");
+        for (int w = 2; w < times; w++) {
+            System.out.println(world);
         }
     }
 
