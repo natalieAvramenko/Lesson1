@@ -7,4 +7,3 @@ public abstract class Animal {
     abstract void swim(int length);
 }
 
-

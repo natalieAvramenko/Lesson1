@@ -4,7 +4,7 @@ public class Cat extends Animal {
 
     public void run(int length) {
         if ((length >= 0) && (length <= MAX_RUN_LENGTH)) {
-            System.out.println("Барсик пробежал метров");
+            System.out.println("Барсик пробежал " + length + " метров");
         } else {
             System.out.println();
         }

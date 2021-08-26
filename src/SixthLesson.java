@@ -4,8 +4,9 @@ public class SixthLesson {
         cat.run(180);
         cat.swim(0);
 
-        Dog dog = new Dog();
-        dog.run(350);
-        dog.swim(5);
+        Dog firstDog = new Dog();
+        firstDog.run(350);
+        firstDog.swim(5);
     }
 }
+
