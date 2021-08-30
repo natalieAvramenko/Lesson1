@@ -37,7 +37,7 @@ public class HomeWorkApp {
         int a = 1;
         int b = 3;
         if (a >= b) {
-            System.out.println(a >= b);
+            System.out.println("a >= b");
         }
         if (a < b) {
             System.out.println("a < b");
